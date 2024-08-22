@@ -1,8 +1,15 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# MultiApp Refactor
 
-Currently, two official plugins are available:
+Aplicativo MultiApp desenvolvido em aula e refatorado para entrega da atividade 5 do curso dev Fullstack da MaisPraTI
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Contém reestruturação dos componentes para que cada um ficasse em uma pasta.
+
+### Tratamento de erros
+Contem tratamento de erros para IPAddresFinder e MovieSearchEngine
+
+### Alterações no código fonte
+Contem alteraçoes no ToDoList, para que funcionasse com lista em branco e salvasse propriamente no localStorage
+
+### Autenticação JWT
+Contem uma simulação de autenticação JWT, gerando um token ao logar com sucesso
